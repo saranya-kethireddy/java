@@ -13,6 +13,6 @@ public class RamuThread extends Thread {
 		super.run();
 		mTable.printTable(5);
 	}
-
+  
 
 }
