@@ -9,7 +9,7 @@ public class FileOutputStreamExample {
 	             FileOutputStream fout=new FileOutputStream("C:\\Users\\skethireddy2\\OneDrive - DXC Production\\Desktop\\testout.txt");    
 	             fout.write(65);    
 	             fout.close();    
-	             System.out.println("success...");    
+	             System.out.println("success..");    
 	            }
 	           catch(Exception e){
 	        	   System.out.println(e);
