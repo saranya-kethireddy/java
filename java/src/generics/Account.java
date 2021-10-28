@@ -1,14 +1,14 @@
 package generics;
 
-public class Account<T> {
+public class Account<E> {
 	
-	T obj;
+	 E obj;
 
-	public T getObj() {
+	public E getObj() {
 		return obj;
 	}
 
-	public void setObj(T obj) {
+	public void setObj(E obj) {
 		this.obj = obj;
 	}
 
